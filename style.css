@@ -5,20 +5,23 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-color: #f4f4f4;
+    /* background-color: cyan; */
+    background: linear-gradient(to bottom right, #1f094f, #f1cb89);
 }
 
 .container {
-    background-color: white;
+    background-color: black;
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.6);
     width: 300px;
+    color: white;
 }
 
 h1 {
     font-size: 24px;
     margin-bottom: 20px;
+    text-align: center;
 }
 
 form {
@@ -38,15 +41,16 @@ input, select, button {
 }
 
 button {
-    background-color: #28a745;
+    background-color: #ff0000;
     color: white;
     border: none;
     cursor: pointer;
     margin-top: 20px;
+    font-weight: bold;
 }
 
 button:hover {
-    background-color: #218838;
+    background-color: #ff0000;
 }
 
 #result {
