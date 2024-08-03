@@ -57,3 +57,20 @@ button:hover {
     margin-top: 20px;
     font-weight: bold;
 }
+footer {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent black */
+    color: white;
+    text-align: center;
+    width: 100%;
+    box-shadow: 0 0 10px rgba(255, 255, 0, 0.6);
+    position: fixed;
+    bottom: 0;
+    backdrop-filter: blur(0 px); /* Applies blur effect */
+    -webkit-backdrop-filter: blur(7px); /* For Safari */
+}
+footer a{
+    color: white;
+    text-decoration: none;
+}
